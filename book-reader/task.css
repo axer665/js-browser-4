@@ -72,6 +72,10 @@ body {
   box-sizing: border-box;
 }
 
+.color:hover {
+  cursor: pointer;
+}
+
 .color_active {
   box-shadow: 0 0 5px white;
   border: 1px solid gray;
@@ -92,6 +96,10 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.font-size:hover {
+  cursor: pointer;
 }
 
 .font-size_small {
